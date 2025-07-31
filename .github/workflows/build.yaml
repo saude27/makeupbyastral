@@ -5,7 +5,9 @@ on:
     branches:
       - practice-branch
   pull_request:
-      - practice-branch
+    branches:
+      - main
+  
 
 env:
   DOCKER_USERNAME: saude27
