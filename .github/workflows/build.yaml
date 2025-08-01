@@ -3,8 +3,10 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - practice-branch
+      - main
   pull_request:
+    branches:
+      - practice-branch
   
 
 env:
